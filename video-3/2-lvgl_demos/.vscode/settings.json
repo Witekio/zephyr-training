@@ -1,0 +1,18 @@
+{
+    "zephyr-workbench.westWorkspace": "/home/plc/myzephyrworkspace",
+    "zephyr-workbench.board": "nucleo_h563zi",
+    "zephyr-workbench.toolchain": "zephyr_sdk",
+    "zephyr-workbench.sdk": "/home/plc/zephyr_toolchain/zephyr-sdk-0.17.4",
+    "zephyr-workbench.build.pristine": "auto",
+    "zephyr-workbench.build.configurations": [
+        {
+            "name": "primary",
+            "board": "nucleo_h563zi",
+            "active": "true"
+        }
+    ],
+    "cmake.configureOnOpen": false,
+    "cmake.enableAutomaticKitScan": false,
+    "C_Cpp.default.compilerPath": "/home/plc/zephyr_toolchain/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/primary/compile_commands.json"
+}
